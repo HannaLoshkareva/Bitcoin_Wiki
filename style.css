@@ -1,0 +1,104 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    font: 14px 'Verdana';
+    margin: 0;
+    width: 100%;    
+}
+
+.header {
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    max-width: 100%;
+    min-width: 500px;
+    height: 5vh;
+    margin-left: 310px;    
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  display: flex;
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+  background-color: #f7931a;
+  width: 300px;
+  min-width: 150px;
+  height: 100%;
+  margin: 1vh 0;
+  font: 18px 'Verdana';   
+  align-items: center;  
+}
+
+.menu ol {
+    list-style-type: none;
+    margin: 0 5px;
+    padding: 5px;
+  
+}
+
+.menu ul{
+  list-style-type: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: #6495ED;
+}
+
+a:active {
+    color: green;
+} 
+
+.content{
+  top: 5vh;
+  width: 100%;
+  min-width: 500px;
+  height:100%;
+  margin-left: 310px;
+  text-align: justify;
+  font: 14px 'Verdana';
+}
+
+h1, h3{
+  border-bottom: 2px solid #6495ED;
+  padding: 2px;
+}
+
+img.logo, img.cash, img.maining, img.buy{
+  float: left;
+  margin: 5px;
+}
+
+img.pizza, img.mark-and, img.trezor, img.bitcoin_address, img.privacy_model, img.blockchain, img.roller{
+  float: right;
+  margin: 5px;
+}
+
+h5{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 15px;
+}
+
+h6{
+ font-weight: bold;
+  font-style: italic;
+  font-size: 12px; 
+}
+
+.description, .history, .operation, .software{
+  overflow: auto;
+}
